@@ -2,7 +2,9 @@
 	position:relative;width:100%;margin-left:20px;margin-bottom:20px;
 }
 .risk-matrix .left-label{
-	position:absolute;font-size:1.2em;font-weight:bold;bottom:0px;;transform:rotate(270deg);transform-origin:left bottom 0;
+	position:absolute;font-size:1.2em;font-weight:bold;bottom:0px;
+    transform:rotate(270deg);-webkit-transform:rotate(270deg);-ms-transform:rotate(270deg);
+    transform-origin:left bottom 0;-webkit-transform-origin:left bottom 0;-ms-transform-origin:left bottom 0;
 }
 .risk-matrix .bottom-label{
 	position:absolute;font-size:1.2em;font-weight:bold;bottom:-20px;

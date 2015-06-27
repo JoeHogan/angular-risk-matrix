@@ -16,7 +16,7 @@
 					var rm = $compile(template)(scope);
 					element.empty();
 					element.append(rm);
-					rm.css('height',rm[0].clientWidth); //make a square
+					rm.css('height',rm[0].clientWidth+'px'); //make a square
 					var col = 0;
 					for(var i = 0; i < 25; i++){
 						(function(j){

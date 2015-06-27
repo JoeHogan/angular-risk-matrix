@@ -13,7 +13,7 @@ Include the JS and CSS files for the plugin:
 Add the module dependency in your AngularJS app:
 
 ```
-angular.module('myModule', ['angular-risk-matrix']);
+angular.module('myModule', ['riskMatrix']);
 ```
 
 ### Usage
@@ -83,7 +83,7 @@ You can change these values to correspond with the five values you are using to 
 
 ###### template
 
-You can optionally define your own template string which will be compiled. The template controlls the format of the html when the risk is hovered over.
+You can optionally define your own template string which will be compiled. The template controlls the format of the html of the risk item displayed on the risk matrix.
 
 Use 'item' to refer to the current risk item:
 
