@@ -1,6 +1,10 @@
 # angular-risk-matrix
 A simple Risk Matrix chart for AngularJS
 
+### Demo
+
+http://jsfiddle.net/joehogan/5gzfeysv/7/
+
 ### Installation
 
 Include the JS and CSS files for the plugin:
@@ -90,7 +94,3 @@ Use 'item' to refer to the current risk item:
 ```
 $scope.data.riskTemplate = '<div class="closed"><span ng-bind="item.Id"></span></div><div class="open"><div class="title" ng-bind="item.Title"></div><div ng-bind="\'Likelihood: \'+item.RiskLikelihood"></div><div ng-bind="\'Impact: \'+item.RiskImpact"></div><div ng-bind="\'Priority: \'+item.Priority"></div></div>';
 ```
-
-### Demo
-
-https://jsfiddle.net/L7hw759o/52/
