@@ -99,4 +99,4 @@ Use 'item' to refer to the current risk item:
 $scope.data.riskTemplate = '<div class="closed"><span ng-bind="item.Id"></span></div><div class="open"><div class="title" ng-bind="item.Title"></div><div ng-bind="\'Likelihood: \'+item.RiskLikelihood"></div><div ng-bind="\'Impact: \'+item.RiskImpact"></div><div ng-bind="\'Priority: \'+item.Priority"></div></div>';
 ```
 
-Example using template: http://jsfiddle.net/joehogan/6xqkwf8p/2/
+Example using template: http://jsfiddle.net/joehogan/6xqkwf8p/3/
