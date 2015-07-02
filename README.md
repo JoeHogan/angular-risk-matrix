@@ -3,7 +3,7 @@ A simple Risk Matrix chart for AngularJS
 
 ### Demo
 
-http://jsfiddle.net/joehogan/5gzfeysv/8/
+http://jsfiddle.net/joehogan/5gzfeysv/10/
 
 ### Installation
 
